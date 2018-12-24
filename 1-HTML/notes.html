@@ -1,0 +1,161 @@
+<h1>this is a level one heading using the "h1" tag</h1>
+<h2>this is a level two heading using the "h2" tag</h2>
+<h3>this is a level three heading using the "h3" tag</h3>
+<h4>this is a level four heading using the "h4" tag</h4>
+<h5>this is a level five heading using the "h5" tag</h5>
+<h6>this is a level six heading using the "h6" tag</h6>
+
+<p>&ltbr&gt tag is used to create line breaks in between html elements.</p>
+
+<p>&lthr&gt tag is used for header rows, this creates simple line borders.</p>
+
+<p>HTML attributes are used to modify the HTML elements, for example, you could
+  change color, size, etc. These are placed just after the starting HTML tag and
+  between the tag type and the greater than symbol.</p>
+
+<!-- this is a comment in html -->
+
+<p>&lt!DOCTYPE&gt tells the browser which version of HTML we are using</p>
+
+<p>The &lthead&gt tag holds information about the page and tells the browser how
+  it should handle the page.</p>
+
+<p>The &lttitle&gt tag tells the title of the particular page.</p>
+
+<p>The &ltmeta&gt tag gives extra meta data or associated data to the document</p>
+
+<p>The "charset='utf-8'" is an attribute that tells the browser that anything
+  written in the body is encoded using the 'UTF-8' encoding system. 'UTF-8' is the
+  standard encoding when working with HTML5. The reason for using this encoding system
+  is because it uses all of the international symbols including other characters such as
+  emojis.</p>
+
+<hr>
+when using an &ltul&gt (unordered) or &ltol&gt (ordered list) and you're looking to add additional information to
+the &ltli&gt list items, you could nest those items. In order to nest the items, you would have
+to include an additional &ltul&gt or &ltol&gt tag after your list item and before your closing tag.
+An example would be:<br>
+<pre>
+&ltul&gt
+
+  &ltli&gtFirst example
+    &ltul&gt
+      &ltli&gt sub info on first example&lt/li&gt
+    &lt/ul&gt
+  &lt/li&gt
+
+&lt/ul&gt
+</pre>
+<ul>
+  <li>First Example
+    <ul>
+      <li>sub info on first example</li>
+    </ul>
+  </li>
+</ul>
+
+<ol>
+  <li>Example
+    <ul>
+      <li>sub info on this example</li>
+    </ul>
+  </li>
+</ol>
+
+<br>
+<hr>
+When using tables you can create two columns of data within a table by nesting tables.
+The tables can be nested within the table data tags. For example:
+<pre>
+  <code>
+    &lttable&gt
+
+      &lttr&gt
+
+        &lttd&gt
+
+          &lttable&gt
+
+            &lttr&gt
+
+              &lttd&gt the first set of data &lt/td&gt
+
+              &lttd&gt sub info &lt/td&gt
+
+            &lt/tr&gt
+
+            &lttr&gt
+
+              &lttd&gt the second set of data &lt/td&gt
+
+              &lttd&gt sub info &lt/td&gt
+
+            &lt/tr&gt
+
+          &lt/table&gt
+
+        &lt/td&gt
+
+        &lttd&gt
+
+          &lttable&gt
+
+            &lttr&gt
+
+              &lttd&gt the third set of data &lt/td&gt
+
+              &lttd&gt sub info &lt/td&gt
+
+            &lt/tr&gt
+
+            &lttr&gt
+
+              &lttd&gt the fourth set of data &lt/td&gt
+
+              &lttd&gt sub info &lt/td&gt
+
+            &lt/tr&gt
+
+          &lt/table&gt
+
+        &lt/td&gt
+
+      &lt/tr&gt
+
+    &lt/table&gt
+  </code>
+</pre>
+
+this example would create:
+
+<table border="1">
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>the first set of data</td>
+          <td>sub info</td>
+        </tr>
+        <tr>
+          <td>the second set of data</td>
+          <td>sub info</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td>the third set of data</td>
+          <td>sub info</td>
+        </tr>
+        <tr>
+          <td>the fourth set of data</td>
+          <td>sub info</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p>I used the border around the complete table to emphasize the distinction between the two
+tables that are nested within the main table. These two tables contain two types of data within each row.</p>
