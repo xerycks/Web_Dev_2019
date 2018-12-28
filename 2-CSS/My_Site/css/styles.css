@@ -1,12 +1,22 @@
-/*COLOR PALETTE: NERO #231F20 / LIGHT GREY #EAEAEA / BLUE #2E9CCA*/
+/*COLOR PALETTE: NERO #212121 / LIGHT GREY #EAEAEA / BLUE #2E9CCA*/
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;*/
 
 body {
     background-color: white;
     margin: 0;
+    max-width: 50em;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 div {
-    background-color: #2E9CCA;
+    background-color: #212121;
+    color: #EAEAEA;
 }
 
 h1 {
@@ -22,5 +32,5 @@ h1 {
 .bottom {
     width: 200px;
     height: 200px;
-    background-color: #212121;
+    background-color: #2e9cca;
 }
