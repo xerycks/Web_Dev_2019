@@ -1,3 +1,5 @@
+<h1>◀ HTML ▶</h1>
+
 <h1>this is a level one heading using the "h1" tag</h1>
 <h2>this is a level two heading using the "h2" tag</h2>
 <h3>this is a level three heading using the "h3" tag</h3>
@@ -30,7 +32,7 @@
   is because it uses all of the international symbols including other characters such as
   emojis.</p>
 
-<hr>
+
 when using an &ltul&gt (unordered) or &ltol&gt (ordered list) and you're looking to add additional information to
 the &ltli&gt list items, you could nest those items. In order to nest the items, you would have
 to include an additional &ltul&gt or &ltol&gt tag after your list item and before your closing tag.
@@ -63,7 +65,7 @@ An example would be:<br>
 </ol>
 
 <br>
-<hr>
+
 When using tables you can create two columns of data within a table by nesting tables.
 The tables can be nested within the table data tags. For example:
 <pre>
@@ -162,7 +164,9 @@ this example would create:
 
 <hr>
 
-<p>CSS Syntax</p>
+<h1>◀ CSS ▶</h1>
+
+<h3>CSS Syntax</h3>
 
 <p>selector {property: value;</p>
 
@@ -179,4 +183,30 @@ this example would create:
 <p>Added a Favicon icon at the top my page to look like my logo. I created and downloaded it at favicon.cc. Once I had
   what I liked I added it to the folder of my
   site and added a &ltlink&gt tag to implement the icon at the top. I changed the 'rel' attribute to "icon" as well.
+</p>
+
+<h3>Div</h3>
+
+<p>The purpose of the div is to work with CSS. The div, or content divison element, is a container to divide and
+  structure your content.</p>
+
+<p>If you add content to a div, the height of the div will change default to the height of the content.</p>
+
+<h3>Box-Model</h3>
+
+<p>In the challenge, I was tasked to make three boxes, each with a width and height of 200 pixles. The idea was to make
+  the boxes touch from edge to edge. The body of the page had a margin and padding of zero, to allow each element to
+  touch the side of the page. From there, I gave the first element a border of 10 pixles and padding of 20 pixels.
+  Next, I added up each side plus the width of the box, 200 + 40 (the 20 pixels of padding on each side) + 20 (the 10
+  pixels of the
+  border on each side) = 260 pixels. Using this calculation, I was about give my next box (middle box) a margin on the
+  left of
+  260 pixels. This margin pushed the middle box right to the exact edge of the first box (top box). Then, for the
+  middle box, I was
+  ask to add a border of 20 pixels. Next, I added up the sides of the border this time. 200 (for the width) + 40 (for
+  the sides of the border) + 260 (for the margin-left) = 500 pixels. I was then able to use that calculation for the
+  next boxes margin on the left, lining it up perfect with the edge of the middle box. The last, or bottom box, was
+  given a border of 10 pixels. If I wanted to make another box I would just account for the width + the width of the
+  border or padding (if I had any) + the pixels for the margin-left. This formula would give me the exact edge for my
+  next box if I chose to do another one.
 </p>
