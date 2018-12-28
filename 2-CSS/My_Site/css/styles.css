@@ -13,25 +13,14 @@ h1 {
     margin-top: 0;
 }
 
-.top {
-    width: 200px;
-    height: 200px;
-    border: 10px solid black;
-    padding: 20px;
-}
-
 .middle {
     width: 200px;
     height: 200px;
     background-color: #EAEAEA;
-    margin-left: 260px;
-    border: 20px solid black;
 }
 
 .bottom {
     width: 200px;
     height: 200px;
     background-color: #212121;
-    border: 10px solid #2E9CCA;
-    margin-left: 500px;
 }
