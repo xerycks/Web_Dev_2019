@@ -49,6 +49,11 @@
         btn = () => {
             playBtn = document.querySelector('.play');
             playBtn.setAttribute('class', 'new');
+
+            setTimeout(() => {
+                playBtn.classList.remove('new');
+                playBtn.classList.add('play');
+            }, 200);
         }
     </script>
 </body>
