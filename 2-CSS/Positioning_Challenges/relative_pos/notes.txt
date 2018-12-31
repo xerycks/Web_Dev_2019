@@ -1,0 +1,2 @@
+The objective of this challenge was to become familiar with relative positioning. The challenge started with Red, Yellow, and Blue 
+blocks in a vertical line. Next, I had to use relative positioning to make a horizontal line of Blue, Yellow, and Red.
