@@ -281,6 +281,19 @@
     anything added to that element, say an &lth1&gt, would sit on top of the &ltdiv&gt. The parent element would only
     cover the child element otherwise.</p>
 
+  <p>With positioning, the original box model sits inside of the positioning box. This dicates how the adding to the
+    margin and / or padding.</p>
+
+  <p><strong>Static Positioning</strong> - Just keeps to the default position. When you have elements in the static
+    position the element will keep with the standard flow of the page.</p>
+
+  <p><strong>Relative Positioning</strong> - puts the element in a position relative to the default position. Two
+    important things to remember when using relative positioning. One, the element will not effect anything else on
+    screen. The element flow is left in tact in relation to other elements on the page. Two, the side you're moving is
+    going to move relative to that side. For example, if you're moving 50 pixels from the top, its going to push the
+    element down 50 pixels from the top of the element to the top of the position the element was originally in. This
+    is because of the box model around the element.</p>
+
   <hr>
 
   <h1>◀ Design School ▶</h1>
@@ -374,7 +387,7 @@
       </ul>
     </ul>
   </p>
-  <h2>Good Practice in Interaction Design</h2>
+  <h3>Good Practice in Interaction Design</h3>
   <p>a good rule of thumb is that light always comes from above. You want to use any effects, such as box shadows, to
     come underneath the subject. The shadows give the user a little more of a realistic interaction. In turn, the user
     is more likely to click on a button that looks and behaves like a real button. When designing, you wanna make sure
