@@ -3,11 +3,12 @@
 font-family: 'Open Sans Condensed', sans-serif;*/
 
 body {
-    background-color: white;
+    background-color: #EAEAEA;
     margin: 0;
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    color: #212121;
 }
 
 h1,
@@ -19,7 +20,7 @@ h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
-div {
+.top-container {
     background-color: #212121;
     color: #EAEAEA;
 }
@@ -48,16 +49,15 @@ h1 {
     padding-top: 100px;
 }
 
-.middle {
-    width: 200px;
-    height: 200px;
-    background-color: #EAEAEA;
-    position: relative;
-    left: 30px;
-}
-
-.bottom {
-    width: 200px;
-    height: 200px;
-    background-color: #2e9cca;
+.btn {
+    margin: 20px;
+    padding: 15px 32px;
+    font-size: 20px;
+    background-image: linear-gradient(#6fb5d3, #2e9cca);
+    border-radius: 15px;
+    box-shadow: 0 5px 30px -4px #888888;
+    outline: none;
+    border: none;
+    color: #000;
+    text-decoration: none;
 }
