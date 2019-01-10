@@ -299,6 +299,18 @@
     any amount of pixels would be relative to the div element. Also, using absolute positioning takes the element out
     of the flow of the document.</p>
 
+  <h3>Static and Relative positioning</h3>
+
+  <p>When adjusting font-size, there's many different was to size it. You have dynamic and static sizes. When using
+    pixels or 'px', that keeps the font size at a static position regardless of adjusting the other text for site. For
+    example, if the user needed to change the size of the font to view the text better, the font set with pixels will
+    not change. If you were looking for a more accessible (dynamic) font size, 'em' or 'M', as it's pronounced, or
+    percentages would be the way to go. However, the problem with using this type of font size is that it is inherited
+    on the rest of the children. For example, if you added an 'em' or percentage to the body and wanted to do a
+    different 'em' or percentage to any other element, that font size will be compounded on top of the size of the body
+    font size. The best font sizing to use is 'rem' or Root-em. This ensures that the element stays relative to the
+    font-size and DOESN'T inherit from the parent.</p>
+
   <hr>
 
   <h1>◀ Design School ▶</h1>

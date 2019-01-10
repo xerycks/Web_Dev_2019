@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /********** INTRO ************/
@@ -34,7 +34,13 @@ h6 {
 
 .name {
     font-size: 5.625rem;
-    display: inline-block;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
 .top-cloud {
@@ -49,6 +55,11 @@ h6 {
 
 /*********** PROFILE ****************/
 
+.profile {
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+
 .profile_pic {
     width: 250px;
     height: 250px;
@@ -57,6 +68,11 @@ h6 {
 }
 
 /************ SKILLS ****************/
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
 
 .skill_pic {
     width: 250px;
@@ -68,7 +84,7 @@ h6 {
 /************ CONTACT ***************/
 
 .btn {
-    margin: 20px;
+    margin: 0 auto 30px auto;
     padding: 15px 32px;
     font-size: 20px;
     background-image: linear-gradient(#6fb5d3, #2e9cca);
