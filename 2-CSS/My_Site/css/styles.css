@@ -26,6 +26,11 @@ h6 {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #2e9cca;
+}
+
 /********** INTRO ************/
 
 .top-container {
@@ -112,4 +117,13 @@ h6 {
 
 .iconColor {
     color: #212121;
+}
+
+.footer-link {
+    margin: 20px 0 20px 0;
+}
+
+.copyright {
+    background-color: #212121;
+    color: #EAEAEA;
 }
