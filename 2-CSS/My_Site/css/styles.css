@@ -10,7 +10,7 @@ body {
     background-color: #EAEAEA;
     margin: 0;
     padding: 0;
-    line-height: 2;
+    line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: #212121;
@@ -119,9 +119,7 @@ a {
     color: #212121;
 }
 
-.footer-link {
-    margin: 20px 0 20px 0;
-}
+
 
 .copyright {
     background-color: #212121;
