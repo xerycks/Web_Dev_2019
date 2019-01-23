@@ -4,23 +4,36 @@ body {
 
 #title {
     background-color: #ff4c68;
-    height: 760px;
+    /* height: 760px; */
+    background-size: cover;
     overflow: hidden;
+    color: #fff;
 }
 
 .container-fluid {
     padding: 3% 15%;
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+/* Navagation Bar */
+
 .navbar {
     padding: 8px 16px 8px 0;
-    margin-bottom: 50px;
+    padding-bottom: 4.5rem;
 }
 
 ul>li>a {
     font-family: 'Ubuntu', sans-serif;
-    padding-right: 20px;
+    padding: 0 20px 0 20px;
     font-size: 20px;
+    font-weight: 300;
 }
 
 ul>li {
@@ -30,23 +43,36 @@ ul>li {
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3rem;
+    font-weight: bold;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
-    color: #fff;
-    padding-bottom: 20px;
-}
+/* Download Buttons */
 
-.main {
+.dwnLd {
     margin: 10px 10px 10px 0;
 }
 
+/* iPhone Image */
+
 .iphone {
     transform: rotate(25deg);
-    height: 760px;
+    width: 60%;
     margin-top: 25px;
+}
+
+/* Features */
+
+.features-icon {
+    color: #ef8172;
+    padding: 40% 0 3% 0;
+}
+
+.feature-titles {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.features-pg {
+    color: #8f8f8f;
 }
