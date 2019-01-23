@@ -4,7 +4,7 @@ body {
 
 #title {
     background-color: #ff4c68;
-    /* height: 760px; */
+    /* height: 650px; */
     background-size: cover;
     overflow: hidden;
     color: #fff;
@@ -62,9 +62,21 @@ ul>li {
 
 /* Features */
 
+#features {
+    padding-top: 10%;
+}
+
+.eachFeature {
+    padding-bottom: 15%;
+}
+
 .features-icon {
     color: #ef8172;
-    padding: 40% 0 3% 0;
+    padding-bottom: 1rem;
+}
+
+.features-icon:hover {
+    color: #ff4c68;
 }
 
 .feature-titles {
