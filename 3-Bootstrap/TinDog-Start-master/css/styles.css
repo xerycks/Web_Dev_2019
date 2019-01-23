@@ -22,6 +22,12 @@ h1 {
     padding-bottom: 20px;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
 /* Navagation Bar */
 
 .navbar {
@@ -87,4 +93,19 @@ ul>li {
 
 .features-pg {
     color: #8f8f8f;
+}
+
+/* Testimonial section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
 }
