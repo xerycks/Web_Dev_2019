@@ -63,11 +63,11 @@ ul>li {
 /* Features */
 
 #features {
-    padding-top: 10%;
+    padding: 8% 0 3% 0;
 }
 
 .eachFeature {
-    padding-bottom: 15%;
+    padding: 5%;
 }
 
 .features-icon {
