@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 #title {
     background-color: #ff4c68;
     height: 760px;
@@ -13,8 +17,14 @@
     margin-bottom: 50px;
 }
 
-.nav li>a {
-    color: white;
+ul>li>a {
+    font-family: 'Ubuntu', sans-serif;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+ul>li {
+    padding-right: 30px;
 }
 
 .navbar-brand {
@@ -32,10 +42,11 @@ h1 {
 }
 
 .main {
-    margin: 10px;
+    margin: 10px 10px 10px 0;
 }
 
 .iphone {
     transform: rotate(25deg);
     height: 760px;
+    margin-top: 25px;
 }
