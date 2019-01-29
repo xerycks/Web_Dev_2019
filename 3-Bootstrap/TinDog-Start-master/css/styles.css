@@ -98,10 +98,13 @@ ul>li {
 /* Testimonial section */
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 .testimonial-img {
@@ -121,4 +124,15 @@ ul>li {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
