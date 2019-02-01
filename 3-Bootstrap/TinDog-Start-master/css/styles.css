@@ -5,9 +5,9 @@ body {
 #title {
     background-color: #ff4c68;
     /* height: 650px; */
-    background-size: cover;
-    overflow: hidden;
     color: #fff;
+    z-index: -1;
+    height: 640px;
 }
 
 .container-fluid {
@@ -64,12 +64,17 @@ ul>li {
     transform: rotate(25deg);
     width: 60%;
     margin-top: 25px;
+    position: relative;
+    z-index: 0;
 }
 
 /* Features */
 
 #features {
     padding: 8% 0 3% 0;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .eachFeature {
