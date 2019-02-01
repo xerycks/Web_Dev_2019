@@ -6,7 +6,6 @@ body {
     background-color: #ff4c68;
     /* height: 650px; */
     color: #fff;
-    z-index: -1;
     height: 640px;
 }
 
@@ -64,8 +63,7 @@ ul>li {
     transform: rotate(25deg);
     width: 60%;
     margin-top: 25px;
-    position: relative;
-    z-index: 0;
+    position: absolute;
 }
 
 /* Features */
@@ -74,7 +72,6 @@ ul>li {
     padding: 8% 0 3% 0;
     background-color: white;
     position: relative;
-    z-index: 1;
 }
 
 .eachFeature {
