@@ -142,7 +142,31 @@ ul>li {
 
 /* CTA section */
 
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 150px;
+}
 
+.ctaText {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+/* Footer section */
+
+#footer {
+    text-align: center;
+    padding: 8% 0 3% 0;
+}
+
+.smIcons {
+    margin: 10px;
+}
 
 @media (max-width: 1028px) {
     #title {
