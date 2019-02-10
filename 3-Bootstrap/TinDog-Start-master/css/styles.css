@@ -11,17 +11,28 @@ h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    line-height: 1.5;
+    line-height: 150%;
 }
 
 #title {
-    background-color: #ff4c68;
-    color: #fff;
     text-align: left;
 }
 
+/* Containers */
+
 .container-fluid {
     padding: 3% 15% 7%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /* Headings */
@@ -75,7 +86,6 @@ ul>li {
 
 #features {
     padding: 8% 0 3% 0;
-    background-color: white;
     position: relative;
 }
 
@@ -106,7 +116,6 @@ ul>li {
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .carousel-item {
@@ -144,12 +153,10 @@ ul>li {
 /* CTA section */
 
 #cta {
-    background-color: #ff4c68;
     padding: 150px;
 }
 
 .ctaText {
-    color: #fff;
     font-size: 3rem;
     padding-bottom: 20px;
 }
