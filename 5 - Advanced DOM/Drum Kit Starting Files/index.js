@@ -9,12 +9,14 @@ for (var i = 0; i < numOfButtons; i++) {
         //adds corresponding sound to the button being pressed
         
         drumSound(buttonInnerHTML);
+        btnAnimation(buttonInnerHTML);
     });
 }
 
 // Listens for the keyboard press
 document.addEventListener("keypress", function (event) {
     drumSound(event.key);
+    btnAnimation(event.key);
 });
 
 //Makes the corresponding sounds for each button / key
@@ -50,4 +52,13 @@ function drumSound(key) {
             break;
         default: break;
     }
+}
+
+//Creates the animation for the button being triggered
+function btnAnimation(currentKey) {
+    var activeButton = document.querySelector("." + currentKey);
+    activeButton.classList.add("pressed")
+    setTimeout(function(){
+        activeButton.classList.remove("pressed");
+    }, 100);
 }
